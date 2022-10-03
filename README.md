@@ -12,7 +12,7 @@ I recommend you use a run file for quick access. Create a run.bat file and paste
 If you're making a ``run.bat`` file, make sure you put it in the same directory as the executable.
 
 <br></br>
-<br></br>
+
 # Screenshots
-![](https://github.com/crjase/Pyramid/blob/main/Screenshots/Far.jpg)
-![](https://github.com/crjase/Pyramid/blob/main/Screenshots/Close.jpg)
+>![](https://github.com/crjase/Pyramid/blob/main/Screenshots/Far.jpg)
+>![](https://github.com/crjase/Pyramid/blob/main/Screenshots/Close.jpg)
