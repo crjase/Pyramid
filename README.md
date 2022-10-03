@@ -15,4 +15,5 @@ If you're making a ``run.bat`` file, make sure you put it in the same directory 
 
 # Screenshots
 >![](https://github.com/crjase/Pyramid/blob/main/Screenshots/Far.jpg)
+>![](https://github.com/crjase/Pyramid/blob/main/Screenshots/ReallyClose.jpg)
 >![](https://github.com/crjase/Pyramid/blob/main/Screenshots/Close.jpg)
