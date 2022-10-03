@@ -1,6 +1,13 @@
-# How-To
-This is source code, but if you go into the folder bin > Dotnet6.0, you will find a compiled build to directly run.
-Once you get the program running, just enter a number (recommended: 1,000 max) and a pyramid with a height of <number> decending will appear in Output.txt.
+# Improvements
+- Added a run argument that specifies a limit. Once every <limit> loops, it will save the memory to a file, then continues.
+This allows the program to not run into an "out of memory" error when trying to generate a massive pyramid (example: 100,000 height).
 
-# Warning
-If you enter a number that is greater than 10,000, you may get an "out of memory" error. This is because I havn't added a way to free memory, I'm not bothered.
+# Different Usage
+To run the program, you now have to specify an "amount" or limit. This limit is the limit for loop iterations. I recommend 10,000 if you usually have 1GB of ram free, but if you don't, then use 1,000. It will run slower with 1,000, as it has to save to the file every 1,000 loops.
+
+I recommend you use a run file for quick access. Create a run.bat file and paste this code code into it.
+`Pyramid.exe <limit>` or if you're using dotnet `dotnet run <limit>`
+**Where it says <limit>, replace that with the <limit> you'd like**.
+
+## Important
+If you're making a ``run.bat`` file, make sure you put it in the same directory as the executable.
