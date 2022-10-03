@@ -1,3 +1,8 @@
+# Pyramid
+This program generates a pyramid in the form of small 1's. This isn't really a practical program, it's just fun.
+![](https://github.com/crjase/Pyramid/blob/main/Screenshots/Far.jpg)
+![](https://github.com/crjase/Pyramid/blob/main/Screenshots/Close.jpg)
+
 # Usage
 To run the program, you now have to specify an "amount" or limit. This limit is the limit for loop iterations. I recommend 10,000 if you usually have 1GB of ram free, but if you don't, then use 1,000. It will run slower with 1,000, as it has to save to the file every 1,000 loops.
 
